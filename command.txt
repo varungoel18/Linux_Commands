@@ -1,0 +1,4 @@
+Linux Commands
+
+ls ( used for showing all the files or folder in the current directory)
+
