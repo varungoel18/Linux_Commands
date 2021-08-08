@@ -46,3 +46,17 @@ read (r)	Allows for file contents to be read or copied.	Without execute permissi
 write (w)	Allows for contents to be modified or overwritten. Allows for files to be added or removed from a directory.	For this permission to work, the directory must also have execute permission.
 execute (x)	Allows for a file to be run as a process, although script files require read permission, as well.	Allows a user to change to the directory if parent directories have execute permission as well.
 
+chmod u+x hello.sh              (chmod [<SET><ACTION><PERMISSIONS>]... FILE)
+
+./hello.sh                (to run the file and display output)
+
+sudo chown root hello.sh                          (chown [OPTIONS] [OWNER] FILE )   ( used to change the owner of the file)
+
+cat animals.txt                                 (used to view the contents of the file)
+pager animals.txt    (also used to view the contents of the file but it is required to view large files because it pauses the page to view the entire document)
+
+head alpha.txt          (used to view some lines of the file from the top)
+tail alpha.txt                (used to view some lines of the file from the bottom)
+
+head -n 5 alpha.txt                  (-n is used to get only specified number of lines from the top)
+tail -n 5 alpha.txt                  (-n is used to get only specified number of lines from the bottom)
