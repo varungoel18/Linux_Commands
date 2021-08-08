@@ -31,3 +31,18 @@ c	character file	Used to communicate with hardware.
 ls -t      (sort according to timestamp)
 ls -s       (sort according to file size)
 ls -r         (sort in reverse alphabetical order)
+
+su                   (administrative login)
+su -                  (administrative login)
+su -l                (administrative login)
+su --login            (administrative login)
+
+sl         (steam locomotive command)
+
+sudo sl   (perform the same function as su but sudo allows to perform the command not as root user)
+
+Permission	Effects on File	Effects on Directory
+read (r)	Allows for file contents to be read or copied.	Without execute permission on the directory, allows for a non-detailed listing of files. With execute permission, ls -l can provide a detailed listing.
+write (w)	Allows for contents to be modified or overwritten. Allows for files to be added or removed from a directory.	For this permission to work, the directory must also have execute permission.
+execute (x)	Allows for a file to be run as a process, although script files require read permission, as well.	Allows a user to change to the directory if parent directories have execute permission as well.
+
