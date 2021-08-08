@@ -60,3 +60,5 @@ tail alpha.txt                (used to view some lines of the file from the bott
 
 head -n 5 alpha.txt                  (-n is used to get only specified number of lines from the top)
 tail -n 5 alpha.txt                  (-n is used to get only specified number of lines from the bottom)
+
+cp /etc/passwd .                    (to make copy of content)
