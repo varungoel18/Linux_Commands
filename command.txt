@@ -2,3 +2,14 @@ Linux Commands
 
 ls ( used for showing all the files or folder in the current directory)
 
+ls Documents (Document is used as the argument which uses Document as the argument)
+
+ls -l  (-l stands for long display)
+
+ls -r  ( -r stands for reverse order)
+
+aptitude moo (to search the easter eggs)
+aptitude -v moo
+aptitude -vv moo
+
+pwd ( to print the working directory)
