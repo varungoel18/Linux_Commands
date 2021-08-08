@@ -13,3 +13,9 @@ aptitude -v moo
 aptitude -vv moo
 
 pwd ( to print the working directory)
+
+cd ..    (to move to the parent directory)
+
+cd .         (to show the current directory)
+
+cd ~           (to move to the main directory)
