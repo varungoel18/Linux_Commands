@@ -62,3 +62,30 @@ head -n 5 alpha.txt                  (-n is used to get only specified number of
 tail -n 5 alpha.txt                  (-n is used to get only specified number of lines from the bottom)
 
 cp /etc/passwd .                    (to make copy of content)
+
+# dd command
+
+dd if=/dev/zero of=/tmp/swapex bs=1M count=50
+
+Argument	Description              (dd command)
+if	
+Input File: The input file to be read from.
+
+dd if=/dev/zero of=/tmp/swapex bs=1M count=50 
+The example reads from the /dev/zerofile, a special file containing an unlimited number of zeros.
+
+of	
+Output File: The output file to be written.
+
+dd if=/dev/zero of=/tmp/swapex bs=1M count=50
+bs	
+Block Size: The block size to be used. By default, the value is considered to be in bytes. Use the following suffixes to specify other units: K, M, G, and T for kilobytes, megabytes, gigabytes and terabytes respectively.
+
+dd if=/dev/zero of=/tmp/swapex bs=1M count=50
+The example uses a block size of one megabyte.
+
+count	
+Count: The number of blocks to be read from the input file.
+
+dd if=/dev/zero of=/tmp/swapex bs=1M count=50
+The example command reads 50 blocks.
