@@ -89,3 +89,25 @@ Count: The number of blocks to be read from the input file.
 
 dd if=/dev/zero of=/tmp/swapex bs=1M count=50
 The example command reads 50 blocks.
+
+mv file1.txt file2.txt              (renaiming the file)
+mv file1.txt work                   (moving file to other directory)
+
+grep sysadmin passwd                (too search sysadmin in the file passwd)
+
+Basic Regex Character(s)	Meaning
+.	Any one single character
+[ ]	Any one specified character
+[^ ]	Not the one specified character
+*	Zero or more of the previous character
+^	If first character in the pattern, then pattern must be at beginning of the line to match, otherwise just a literal ^
+$	If last character in the pattern, then pattern must be at the end of the line to match, otherwise just a literal $
+
+Use egrep or -E with grep command
+
+Extended Regex Character(s)	Meaning
++	One or more of the previous pattern
+?	The preceding pattern is optional
+{ }	Specify minimum, maximum or exact matches of the previous pattern
+|	Alternation - a logical "or"
+( )	Used to create groups
