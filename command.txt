@@ -144,4 +144,8 @@ passwd -S sysadmin       (to check the status of the password)
 cat food.txt > newfiel1.txt     (output of food.txt is redirected to the newfile1.txt)
 cat newfile1.txt                (run this command to check the output)
 
+echo "hello world"
+echo "I like this food" > mewfile1.txt                    (it will override the content in newfile1.txt and display echo statement)
+echo "this food is so awesome" >> newfile1.txt          (it will append that means it will add echo line to newfile1.txt and both previous and current line will be displayed)
+
 
