@@ -138,4 +138,10 @@ apt-get upgrade
 apt-get remove cowsay      (to remove the package)
 apt-get purge  cowsay      (to purge the package)
 
+passwd                  (command to change the password)
+passwd -S sysadmin       (to check the status of the password)
+
+cat food.txt > newfiel1.txt     (output of food.txt is redirected to the newfile1.txt)
+cat newfile1.txt                (run this command to check the output)
+
 
