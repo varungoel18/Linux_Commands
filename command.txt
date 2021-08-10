@@ -111,3 +111,31 @@ Extended Regex Character(s)	Meaning
 { }	Specify minimum, maximum or exact matches of the previous pattern
 |	Alternation - a logical "or"
 ( )	Used to create groups
+
+shutdown now   (system does under maintainance)
+shutdown 01:51   (time for shutodwn of the system)
+shutdown +1 "Goodbye World"
+
+ifconfig             (to check setting of wireless network)
+iwconfig             (to check setting of wireless network)
+
+ping 192.168.1.2              (packets are send to check the connectivity)         (use cntlr+c to stop the transmission)
+ping -c 4 192.168.1.2         (only 4 packets will bec sended to check the connectivity)     (use cntlr+c to stop the transmission)
+
+ps          (to view processes which are currently running)
+ps -e       (display every process running)
+ps -ef        (to get more info)
+
+dpkg
+apt-get
+sudo apt-get update
+apt-cache search cow 
+sudo apt-get install cowsay
+apt-get install             (to update the package which is already installed in the system and if there is no such package it will install it)
+apt-get update
+apt-get upgrade
+
+apt-get remove cowsay      (to remove the package)
+apt-get purge  cowsay      (to purge the package)
+
+
